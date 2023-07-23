@@ -1,0 +1,164 @@
+#grad1 {
+  height: 1800px;
+  background-color: rgb(97, 94, 94); /* Linear Grad for bg */
+  background-image: linear-gradient(rgb(56, 55, 55), rgb(22, 22, 21));
+  }
+  
+#navbar1 {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 15%;
+  display: block;
+  transition: top 0.4s;
+}
+
+#navbar1 a {
+  float: left;
+  display: block;
+  color: #008cff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+}
+#navbar1 a:hover {
+  background-color: rgb(51, 255, 0);
+  color: black;
+}
+
+/*image effects*/
+
+
+
+.slow-transition {
+    box-shadow: 0 0 10px 0 rgba(241, 232, 232, 0.3);
+    transition: box-shadow 500ms;
+    transform: scale(0.65);
+    border-radius: 50px;
+    margin-left: 160px;
+  }
+  
+  .slow-transition:hover {
+    box-shadow: 0 12px 52px 0;
+    color:rgba(123, 242, 247, 0.842);
+    
+  }
+  
+
+
+
+
+  /*image pop-up*/
+
+  #image-holder {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:60px;
+    left: 320px;
+    display: none;
+  }
+
+
+  
+
+
+ /* button hovering and other effects*/
+
+
+ .button {
+    border: none;
+    font-family: Montserrat,sans-serif;
+    font-weight:800;
+    height:60px;
+    width:375px;
+    color: white;
+    border-color: rgb(240, 239, 234);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 60px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  
+  .raise:hover,    
+  .raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+  }                                                    
+  
+                                                             /*button 1*/
+
+
+  .button1 {
+    background-color: rgb(122, 121, 121);; 
+ 
+    border: 2px solid rgb(88, 88, 88);
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: black;
+  }
+  
+                                                            /*button 2*/
+                                                           
+
+  .button2 {
+    background-color: white; 
+    color:black;
+    border: 2px solid rgb(88, 88, 88);
+  }
+  
+  .button2:hover {
+    background-color:rgb(161, 160, 160);
+    color: black;
+  }
+
+/*font effects*/
+
+  .a-icon-star {
+    width: 80px;
+    height: 18px;
+}
+
+.product {
+  position: absolute;
+  margin-top: 100px;
+  float: inherit;
+  font-size: 4rem;
+  line-height: 1.225;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.price {
+  position: absolute;
+  margin-top: 200px;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 1.5px;
+  color: #a9a9a9; 
+  font-weight: 10;
+}
